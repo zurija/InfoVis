@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="WINDOWS-1252">
+    <title data-original="HS Schmalkalden">
+        HS Schmalkalden - HS Schmalkalden    </title>
+        <link rel="stylesheet" href="https://studip.fh-schmalkalden.de/assets/squeezed/base-studip-jquery-ui.css?v=3.5" media="screen, print">
+<link rel="stylesheet" href="https://studip.fh-schmalkalden.de/assets/squeezed/base-jshighlight_tomorrow.css?v=3.5" media="screen, print">
+<link rel="stylesheet" href="https://studip.fh-schmalkalden.de/assets/squeezed/base-chartist.min.css?v=3.5" media="screen, print">
+<link rel="stylesheet" href="https://studip.fh-schmalkalden.de/assets/squeezed/base-style.css?v=3.5" media="screen">
+<link rel="stylesheet" href="https://studip.fh-schmalkalden.de/assets/squeezed/base-print.css?v=3.5" media="print">
+<script src="https://studip.fh-schmalkalden.de/assets/squeezed/base.js?v=3.5" charset="utf-8">
+</script>
+<link rel="apple-touch-icon" href="https://studip.fh-schmalkalden.de/assets/images/touch-icon-ipad3.png" size="144x144">
+<link rel="apple-touch-icon" href="https://studip.fh-schmalkalden.de/assets/images/touch-icon-iphone4.png" size="114x114">
+<link rel="apple-touch-icon" href="https://studip.fh-schmalkalden.de/assets/images/touch-icon-ipad.png" size="72x72">
+<link rel="apple-touch-icon" href="https://studip.fh-schmalkalden.de/assets/images/touch-icon-iphone.png">
+<link rel="shortcut icon" href="https://studip.fh-schmalkalden.de/assets/images/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if IE]><link href="https://studip.fh-schmalkalden.de/assets/stylesheets/ie.css" media="screen,print" rel="stylesheet">
+<![endif]-->
+<link rel="help" href="http://docs.studip.de/help/3.5/de/Basis.VerschiedenesFormat" class="text-format" title="Hilfe zur Textformatierung">
+<script src="https://studip.fh-schmalkalden.de/assets/javascripts/mathjax/MathJax.js?config=TeX-AMS_HTML,default">
+</script>
+<script src="https://studip.fh-schmalkalden.de/plugins_packages/core/Modulverwaltung/public/javascripts/coursewizard.js">
+</script>
+
+    <script src="https://studip.fh-schmalkalden.de/dispatch.php/localizations/de_DE"></script>
+
+    <script>
+        STUDIP.ABSOLUTE_URI_STUDIP = "https://studip.fh-schmalkalden.de/";
+        STUDIP.ASSETS_URL = "https://studip.fh-schmalkalden.de/assets/";
+        String.locale = "de-DE";
+                STUDIP.URLHelper.parameters = [];
+    </script>
+    </head>
+
+<body id="sendfile">
+<div id="layout_wrapper">
+            <!-- Start Header -->
+<div id="flex-header">
+    <div id="header">
+        <!--<div id='barTopLogo'>
+            <img alt="Logo Uni Göttingen" src="https://studip.fh-schmalkalden.de/assets/images/logos/logoneu.jpg">        </div>
+         -->
+        <div id="barTopFont">
+            HS Schmalkalden        </div>
+                <ul id="barTopMenu" role="navigation">
+                                                                                <li id="nav_start">
+                        <a href="https://studip.fh-schmalkalden.de/index.php?cancel_login=1" >
+                            <img title="Zur Startseite" class="headericon original icon-role-navigation icon-shape-home" width="16" height="16" src="https://studip.fh-schmalkalden.de/assets/images/icons/lightblue/home.svg" alt="Zur Startseite">                            <br>
+                            Start                        </a>
+                    </li>
+                                                                                    <li id="nav_browse">
+                        <a href="https://studip.fh-schmalkalden.de/dispatch.php/public_courses?cancel_login=1" >
+                            <img title="Freie Veranstaltungen" class="headericon original icon-role-navigation icon-shape-seminar" width="16" height="16" src="https://studip.fh-schmalkalden.de/assets/images/icons/lightblue/seminar.svg" alt="Freie Veranstaltungen">                            <br>
+                            Freie                        </a>
+                    </li>
+                                                                                                                                                    </ul>
+    </div>
+    <!-- Stud.IP Logo -->
+    <a class="studip-logo" id="barTopStudip" href="http://www.studip.de/" title="Stud.IP Homepage" target="_blank">
+        Stud.IP Homepage
+    </a>
+</div>
+
+<!-- Leiste unten -->
+<div id="barBottomContainer" >
+    <div id="barBottomLeft">
+            <div class="current_page">Aktuelle Seite:</div>
+        </div>
+    <div id="barBottomArrow"></div>
+    <div id="barBottommiddle">
+        Login            </div>
+    <!-- Dynamische Links ohne Icons -->
+    <div id="barBottomright">
+        <ul>
+                                                                        <li >
+                        <a
+                                                            href="https://studip.fh-schmalkalden.de/sendfile.php?force_download=1&amp;type=0&amp;file_id=0260ecb86863d45a5e0b665f0a662319&amp;file_name=infovis-02-color-shape-dimensions.mini.pdf&amp;again=yes"
+                                                                                    >Login</a>
+                    </li>
+                                            </ul>
+    </div>
+</div>
+<!-- Ende Header -->
+
+<div>
+<script type="text/javascript" language="javascript">
+//<![CDATA[
+$(function () {
+  $('form[name=login]').submit(function () {
+    $('input[name=resolution]', this).val( screen.width + 'x' + screen.height );
+    $('input[name=device_pixel_ratio]').val(window.devicePixelRatio || 1);
+  });
+});
+// -->
+</script>
+<style>
+    #layout_container {
+        background-color: transparent;
+    }
+</style>
+<div class="index_container">
+<table class="index_box logintable" style="border:0px solid white; box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);">
+    <tbody>
+        <tr style="height: 350px">
+            <td style="padding: 5px 0px 10px 40px;">
+                            <h1 style="margin: 0; padding-bottom:10px;">Herzlich willkommen!</h1>
+                            <p style="padding-bottom:25px;">Bitte identifizieren Sie sich mit Benutzername und Passwort:</p>
+
+                <form style="padding-bottom:25px;" name="login" method="post" action="https://studip.fh-schmalkalden.de/sendfile.php?force_download=1&amp;type=0&amp;file_id=0260ecb86863d45a5e0b665f0a662319&amp;file_name=infovis-02-color-shape-dimensions.mini.pdf">
+                    <input type="hidden" name="security_token" value="HWQssmvfuut5222YiY8mWf3ySJHdDlvBP8DQIiJ2yNI=">                    <input type="hidden" name="login_ticket" value="156c02a9c45131be3cefcee135f8334a">
+                    <input type="hidden" name="resolution"  value="">
+                    <input type="hidden" name="device_pixel_ratio" value="1">
+                    <table border="0" cellspacing="0" cellpadding="4">
+                        <tbody>
+                            <tr valign="top" align="left">
+                                <td>
+                                    <label for="loginname">Benutzername: (FHS-ID)</label>
+                                </td>
+                                <td>
+                                    <input type="text" autofocus                                           id="loginname" name="loginname"
+                                           value=""
+                                           size="20" maxlength="63"
+                                           autocorrect="off" autocapitalize="off">
+                                </td>
+                            </tr>
+                            <tr valign="top" align="left">
+                                <td>
+                                    <label for="password">Passwort:</label>
+                                </td>
+                                <td>
+                                    <input type="password"                                            id="password" name="password" size="20">
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td align="center" colspan="2">
+                                    <button type="submit" class="accept button" name="Login">Anmelden</button>                                    <a class="button" href="https://studip.fh-schmalkalden.de/index.php?cancel_login=1" tabindex="0">Abbrechen</a>                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </form>
+
+                <div>
+                    <a href="http://myidm.fh-schmalkalden.de/lostpw">Passwort vergessen</a>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+            </div>
+        </div>
+    </div>
+    <!-- Beginn Footer -->
+<div id="layout_footer">
+
+    <ul>
+                        <li>
+            <a
+                            href="http://www.studip.de/" target="_blank"
+                        >Stud.IP</a>
+            </li>
+                                <li>
+            <a
+                            href="http://blog.studip.de/" target="_blank"
+                        >Blog</a>
+            </li>
+                                <li>
+            <a
+                            href="https://studip.fh-schmalkalden.de/dispatch.php/siteinfo/show?cancel_login=1"
+                        >Impressum</a>
+            </li>
+                </ul>
+</div>
+<script>
+STUDIP.Navigation = {"start":{"icon":"images\/icons\/lightblue\/home.svg","title":"Start","url":"index.php","active":null,"children":{"start_my_courses":{"title":"Meine Veranstaltungen","url":"dispatch.php\/my_courses","active":false,"children":{"start_my_courses_browse":{"title":"Veranstaltung hinzuf\u00fcgen","url":"dispatch.php\/search\/courses","active":false}}},"start_messaging":{"title":"Nachrichten","url":"dispatch.php\/messages\/overview","active":false,"children":{"start_messaging_in":{"title":"Posteingang","url":"dispatch.php\/messages\/overview","active":false},"start_messaging_out":{"title":"Gesendet","url":"dispatch.php\/messages\/sent","active":false}}},"start_community":{"title":"Community","url":"dispatch.php\/online","active":false,"children":{"start_community_online":{"title":"Wer ist online?","url":"dispatch.php\/online","active":false},"start_community_contacts":{"title":"Meine Kontakte","url":"dispatch.php\/contact","active":false},"start_community_browse":{"title":"Studiengruppen","url":"dispatch.php\/studygroup\/browse","active":false},"start_community_score":{"title":"Rangliste","url":"dispatch.php\/score","active":false}}},"start_profile":{"title":"Mein Profil","url":"dispatch.php\/profile","active":false},"start_planner":{"title":"Mein Planer","url":"dispatch.php\/calendar\/single","active":false,"children":{"start_planner_calendar":{"title":"Terminkalender","url":"dispatch.php\/calendar\/single","active":false},"start_planner_schedule":{"title":"Stundenplan","url":"dispatch.php\/calendar\/schedule","active":false}}},"start_search":{"title":"Suchen","url":"dispatch.php\/search\/courses","active":false,"children":{"start_search_user":{"title":"Personensuche","url":"browse.php","active":false},"start_search_course":{"title":"Veranstaltungssuche","url":"dispatch.php\/search\/courses","active":false}}},"start_tools":{"title":"Tools","url":"dispatch.php\/news\/admin_news","active":false,"children":{"start_tools_news":{"title":"Ank\u00fcndigungen","url":"dispatch.php\/news\/admin_news","active":false},"start_tools_vote":{"title":"Umfragen und Tests","url":"dispatch.php\/questionnaire\/overview","active":false},"start_tools_evaluation":{"title":"Evaluationen","url":"admin_evaluation.php","active":false},"start_tools_literature":{"title":"Literatur","url":"dispatch.php\/literature\/edit_list.php?_range_id=self","active":false}}},"start_help":{"title":"Hilfe","url":"http:\/\/docs.studip.de\/help\/3.5\/de\/Basis.Allgemeines","active":false,"children":{"start_help_intro":{"title":"Schnelleinstieg","url":"http:\/\/docs.studip.de\/help\/3.5\/de\/Basis.SchnellEinstiegKomplett","active":false}}}}},"browse":{"icon":"images\/icons\/lightblue\/seminar.svg","title":"Freie","url":"dispatch.php\/public_courses","active":false}};
+</script>
+<!-- Ende Footer -->
+<!-- Ende Page -->
+</div>
+
+    
+</body>
+</html>
